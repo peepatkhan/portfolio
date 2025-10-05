@@ -45,7 +45,7 @@ export default function Home() {
                       <span className="font-semibold">2024</span>
                       <span className="text-gray-400"> - Bachelor’s Degree in Computer Engineering, Faculty of Engineering, Khon Kaen University</span>
                       <br />
-                      <span className="font-semibold">2025 - Present</span>
+                      <span className="font-semibold">2024 - Present</span>
                       <span className="text-gray-400"> - Working at Smart Shift Solution</span>
                       <br />
                     </div>
@@ -66,7 +66,6 @@ export default function Home() {
           </a>
         </div>
       </main>
-
     </>
   );
 }
