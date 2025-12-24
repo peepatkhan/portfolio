@@ -126,7 +126,7 @@ export default function Home() {
                     </div>
                   </div>
                 </a>
-                <a href="https://admission.kku.ac.th" target="_blank" rel="noopener noreferrer" className="group block">
+                <a href="https://admission.gs.kku.ac.th" target="_blank" rel="noopener noreferrer" className="group block">
                   <div className="bg-neutral-800 rounded-xl overflow-hidden h-full border border-gray-700 group-hover:border-gray-500 transition-all duration-300">
                     <div className="aspect-video relative overflow-hidden bg-neutral-700">
                       <Image src="/work-kku.png" alt="KKU Admission" fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
