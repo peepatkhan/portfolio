@@ -16,7 +16,7 @@ export default function Home() {
         <div className="container mx-auto px-6 py-12">
           <div className="text-center mb-20 animate-fade-in">
             <h1 className="text-7xl font-bold mb-6 bg-gradient-to-r from-neutral-900 via-neutral-600 to-neutral-500 dark:from-white dark:via-gray-300 dark:to-gray-500 bg-clip-text text-transparent">Peepat Khantharacha</h1>
-            <p className="text-xl font-semibold text-neutral-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed">Software Engineer ( Full-Stack Engineer )</p>
+            <p className="text-xl font-semibold text-neutral-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed">Software Engineer</p>
           </div>
 
           {/* Bio Section */}
@@ -168,7 +168,13 @@ export default function Home() {
           <a href="https://github.com/peepatkhan" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-neutral-600 dark:text-gray-400 hover:text-neutral-900 dark:hover:text-white transition-colors text-2xl">
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/peepat-khantharacha-6ba7b4252/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-neutral-600 dark:text-gray-400 hover:text-neutral-900 dark:hover:text-white transition-colors text-2xl">
+          <a
+            href="https://www.linkedin.com/in/peepat-khantharacha-6ba7b4252/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            className="text-neutral-600 dark:text-gray-400 hover:text-neutral-900 dark:hover:text-white transition-colors text-2xl"
+          >
             <FaLinkedin />
           </a>
         </div>
