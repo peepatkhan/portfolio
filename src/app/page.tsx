@@ -2,15 +2,17 @@ import Image from "next/image";
 import { FaGithub, FaLinkedin, FaJava, FaDocker, FaExternalLinkAlt } from "react-icons/fa";
 import { SiSpringboot, SiNextdotjs, SiGo, SiPostgresql, SiMongodb } from "react-icons/si";
 import { ThemeToggle } from "@/components/ThemeToggle";
+import { Navbar } from "@/components/Navbar";
 
 export default function Home() {
   return (
     <>
       <main className="min-h-screen bg-white dark:bg-neutral-900 backdrop-blur-sm text-neutral-900 dark:text-white relative z-10">
-        {/* Theme Toggle */}
-        <div className="container mx-auto px-6 pt-6 flex justify-end">
+        {/* Navbar */}
+        <header className="container mx-auto px-6 pt-6 flex justify-between items-center">
+          <Navbar />
           <ThemeToggle />
-        </div>
+        </header>
 
         {/* Hero Section */}
         <div className="container mx-auto px-6 py-12">
@@ -20,7 +22,7 @@ export default function Home() {
           </div>
 
           {/* Bio Section */}
-          <div className="max-w-6xl mx-auto mb-20 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+          <div id="about" className="max-w-6xl mx-auto mb-20 animate-fade-in-up scroll-mt-24" style={{ animationDelay: "0.2s" }}>
             <div className="bg-neutral-50/50 dark:bg-neutral-900/50 backdrop-blur-sm border border-neutral-300 dark:border-gray-800 rounded-2xl p-8 hover:border-neutral-400 dark:hover:border-gray-600 transition-all duration-300">
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
                 {/* Photo Section */}
@@ -63,7 +65,7 @@ export default function Home() {
           </div>
 
           {/* Tech Stack Section */}
-          <div className="max-w-6xl mx-auto mb-20 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+          <div id="skills" className="max-w-6xl mx-auto mb-20 animate-fade-in-up scroll-mt-24" style={{ animationDelay: "0.4s" }}>
             <div className="bg-neutral-50/50 dark:bg-neutral-900/50 backdrop-blur-sm border border-neutral-300 dark:border-gray-800 rounded-2xl p-8 hover:border-neutral-400 dark:hover:border-gray-600 transition-all duration-300">
               <h2 className="text-2xl font-semibold mb-8 text-neutral-800 dark:text-gray-200 underline underline-offset-8 decoration-4 decoration-neutral-500 dark:decoration-gray-500">Skills</h2>
               <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-7 gap-6">
@@ -114,7 +116,7 @@ export default function Home() {
           </div>
 
           {/* Work Section */}
-          <div className="max-w-6xl mx-auto mb-20 animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
+          <div id="work" className="max-w-6xl mx-auto mb-20 animate-fade-in-up scroll-mt-24" style={{ animationDelay: "0.6s" }}>
             <div className="bg-neutral-50/50 dark:bg-neutral-900/50 backdrop-blur-sm border border-neutral-300 dark:border-gray-800 rounded-2xl p-8 hover:border-neutral-400 dark:hover:border-gray-600 transition-all duration-300">
               <h2 className="text-2xl font-semibold mb-8 text-neutral-800 dark:text-gray-200 underline underline-offset-8 decoration-4 decoration-neutral-500 dark:decoration-gray-500">Work</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
