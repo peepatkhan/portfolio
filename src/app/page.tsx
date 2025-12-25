@@ -65,7 +65,7 @@ export default function Home() {
           {/* Tech Stack Section */}
           <div className="max-w-6xl mx-auto mb-20 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
             <div className="bg-neutral-50/50 dark:bg-neutral-900/50 backdrop-blur-sm border border-neutral-300 dark:border-gray-800 rounded-2xl p-8 hover:border-neutral-400 dark:hover:border-gray-600 transition-all duration-300">
-              <h2 className="text-2xl font-semibold mb-8 text-neutral-800 dark:text-gray-200 underline underline-offset-8 decoration-4 decoration-neutral-500 dark:decoration-gray-500">Tech Stack</h2>
+              <h2 className="text-2xl font-semibold mb-8 text-neutral-800 dark:text-gray-200 underline underline-offset-8 decoration-4 decoration-neutral-500 dark:decoration-gray-500">Skills</h2>
               <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-7 gap-6">
                 <div className="flex flex-col items-center gap-2 group">
                   <div className="p-4 bg-neutral-200 dark:bg-neutral-800 rounded-xl group-hover:bg-neutral-300 dark:group-hover:bg-neutral-700 transition-all duration-300">
